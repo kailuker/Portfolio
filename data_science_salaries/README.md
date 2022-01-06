@@ -2,7 +2,7 @@
 ---
 
 [Tableau Dashboard](https://public.tableau.com/app/profile/kai.luker/viz/DataScienceSalaries/DataScienceSalaries)
-![Data science salaries Tableau dashboard](readme_files/Data Science Salaries.png)
+![Data science salaries Tableau dashboard](readme_files/data_science_salaries_dashboard.png)
 
 ---
 
