@@ -1,6 +1,11 @@
 # Who Has the Highest Salary in Data Science?
 ---
 
+[Tableau Dashboard](https://public.tableau.com/app/profile/kai.luker/viz/DataScienceSalaries/DataScienceSalaries)
+![Data science salaries Tableau dashboard](readme_files/Data Science Salaries.png)
+
+---
+
 # Introduction
 
 [This dataset](https://github.com/foorilla/ai-jobs-net-salaries) consists of self-report data from people working in the field of data science in 2020 and 2021, including their roles, salaries, etc. This data is collected by [ai-jobs.net](https://salaries.ai-jobs.net/). The version of the dataset used in this project only includes data from 259 people, however the dataset is regularly updated.
@@ -454,7 +459,7 @@ salary_data['employee_residence'].value_counts().plot(kind='bar', title='Count o
 
 
     
-![png](for_readme_files/for_readme_18_1.png)
+![png](readme_files/readme_18_1.png)
     
 
 
@@ -528,7 +533,7 @@ salary_data['company_location'].value_counts().plot(kind='bar', title='Count of 
 
 
     
-![png](for_readme_files/for_readme_20_1.png)
+![png](readme_files/readme_20_1.png)
     
 
 
@@ -778,7 +783,7 @@ salary_data['salary_in_usd'].plot.hist(title='Salary Frequency', bins=100, xlabe
 
 
     
-![png](for_readme_files/for_readme_37_1.png)
+![png](readme_files/readme_37_1.png)
     
 
 
@@ -802,7 +807,7 @@ salary_data['company_size'].value_counts().plot(kind='bar', title='Count of Comp
 
 
     
-![png](for_readme_files/for_readme_39_1.png)
+![png](readme_files/readme_39_1.png)
     
 
 
@@ -824,7 +829,7 @@ salary_data.groupby('company_size')['salary_in_usd'].mean().plot(kind='bar', tit
 
 
     
-![png](for_readme_files/for_readme_41_1.png)
+![png](readme_files/readme_41_1.png)
     
 
 
@@ -849,7 +854,7 @@ salary_data['experience'].plot.hist(title='Frequency of Experience Level', xlabe
 
 
     
-![png](for_readme_files/for_readme_44_1.png)
+![png](readme_files/readme_44_1.png)
     
 
 
@@ -871,7 +876,7 @@ salary_data.groupby('experience')['salary_in_usd'].mean().plot(kind='bar', title
 
 
     
-![png](for_readme_files/for_readme_46_1.png)
+![png](readme_files/readme_46_1.png)
     
 
 
@@ -896,7 +901,7 @@ salary_data['work_type'].value_counts().plot(kind='bar', title='Frequency of Wor
 
 
     
-![png](for_readme_files/for_readme_48_1.png)
+![png](readme_files/readme_48_1.png)
     
 
 
@@ -919,7 +924,7 @@ salary_data.groupby('work_type')['salary_in_usd'].mean().plot(kind='bar', title=
 
 
     
-![png](for_readme_files/for_readme_50_1.png)
+![png](readme_files/readme_50_1.png)
     
 
 
@@ -944,7 +949,7 @@ salary_data['usa_employee'].value_counts().plot(kind='bar', title='Frequency of 
 
 
     
-![png](for_readme_files/for_readme_53_1.png)
+![png](readme_files/readme_53_1.png)
     
 
 
@@ -966,7 +971,7 @@ salary_data.groupby('usa_employee')['salary_in_usd'].mean().plot(kind='bar', tit
 
 
     
-![png](for_readme_files/for_readme_55_1.png)
+![png](readme_files/readme_55_1.png)
     
 
 
@@ -990,7 +995,7 @@ salary_data['remote_status'].value_counts().plot(kind='bar', title='Frequency of
 
 
     
-![png](for_readme_files/for_readme_57_1.png)
+![png](readme_files/readme_57_1.png)
     
 
 
@@ -1012,7 +1017,7 @@ salary_data.groupby('remote_status')['salary_in_usd'].mean().plot(kind='bar', ti
 
 
     
-![png](for_readme_files/for_readme_59_1.png)
+![png](readme_files/readme_59_1.png)
     
 
 
@@ -1036,7 +1041,7 @@ salary_data['usa_company'].value_counts().plot(kind='bar', title='Frequency of U
 
 
     
-![png](for_readme_files/for_readme_62_1.png)
+![png](readme_files/readme_62_1.png)
     
 
 
@@ -1058,7 +1063,7 @@ salary_data.groupby('usa_company')['salary_in_usd'].mean().plot(kind='bar', titl
 
 
     
-![png](for_readme_files/for_readme_64_1.png)
+![png](readme_files/readme_64_1.png)
     
 
 
@@ -1083,7 +1088,7 @@ salary_data['job_category'].value_counts().plot(kind='bar', title='Frequency of 
 
 
     
-![png](for_readme_files/for_readme_67_1.png)
+![png](readme_files/readme_67_1.png)
     
 
 
@@ -1106,7 +1111,7 @@ salary_data.groupby('job_category')['salary_in_usd'].mean().plot(kind='bar', tit
 
 
     
-![png](for_readme_files/for_readme_69_1.png)
+![png](readme_files/readme_69_1.png)
     
 
 
@@ -1362,7 +1367,7 @@ sns.heatmap(regression_data.corr(), annot=True, cmap='vlag')
 
 
     
-![png](for_readme_files/for_readme_75_1.png)
+![png](readme_files/readme_75_1.png)
     
 
 
@@ -1387,7 +1392,7 @@ coeff.plot(kind='bar')
 
 
     
-![png](for_readme_files/for_readme_77_1.png)
+![png](readme_files/readme_77_1.png)
     
 
 

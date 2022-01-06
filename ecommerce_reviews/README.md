@@ -316,7 +316,7 @@ review_data.groupby('department_name').size().plot(kind='bar', title='Item Type 
 
 
     
-![png](for_readme_files/for_readme_18_1.png)
+![png](readme_files/readme_18_1.png)
     
 
 
@@ -335,7 +335,7 @@ no_miss_reviews.groupby('department_name').size().plot(kind='bar',title='Item Ty
 
 
     
-![png](for_readme_files/for_readme_19_1.png)
+![png](readme_files/readme_19_1.png)
     
 
 
@@ -539,7 +539,7 @@ sns.histplot(data=regression_data, x='rating', hue='rating', palette='mako', dis
 
 
     
-![png](for_readme_files/for_readme_27_1.png)
+![png](readme_files/readme_27_1.png)
     
 
 
@@ -569,7 +569,7 @@ sns.histplot(data=regression_data, x='age', kde=True, palette='mako', discrete=T
 
 
     
-![png](for_readme_files/for_readme_29_1.png)
+![png](readme_files/readme_29_1.png)
     
 
 
@@ -597,7 +597,7 @@ sns.heatmap(regression_data.corr(), annot=True, cmap='vlag')
 
 
     
-![png](for_readme_files/for_readme_31_1.png)
+![png](readme_files/readme_31_1.png)
     
 
 
@@ -875,7 +875,7 @@ sns.barplot(data=regression_data, x='recommended_ind', y='rating', palette='mako
 
 
     
-![png](for_readme_files/for_readme_53_1.png)
+![png](readme_files/readme_53_1.png)
     
 
 
@@ -898,7 +898,7 @@ sns.countplot(data=regression_data, x='rating', hue='recommended_ind', palette='
 
 
     
-![png](for_readme_files/for_readme_54_1.png)
+![png](readme_files/readme_54_1.png)
     
 
 
