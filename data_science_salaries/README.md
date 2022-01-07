@@ -1,18 +1,16 @@
 # Who Has the Highest Salary in Data Science?
 ---
 
-[Tableau Dashboard](https://public.tableau.com/app/profile/kai.luker/viz/DataScienceSalaries/DataScienceSalaries)
+# [Interactive Tableau Dashboard](https://public.tableau.com/app/profile/kai.luker/viz/DataScienceSalaries/DataScienceSalaries)
 ![Data science salaries Tableau dashboard](readme_files/data_science_salaries_dashboard.png)
-
----
 
 # Introduction
 
 [This dataset](https://github.com/foorilla/ai-jobs-net-salaries) consists of self-report data from people working in the field of data science in 2020 and 2021, including their roles, salaries, etc. This data is collected by [ai-jobs.net](https://salaries.ai-jobs.net/). The version of the dataset used in this project only includes data from 259 people, however the dataset is regularly updated.
 
-Because this data is self-reported, there may be issues of accuracy in the data. This can be an issue especially in such a small dataset, as it would be easy to bias the data with only a handful of inaccurate values.
+Because this dataset is self-reported, there may be issues of accuracy in the data. This can be an issue especially in such a small dataset, as it would be easy to bias the data with only a handful of inaccurate values. With these issues inherent in the data, this project should only be taken as a starting point in answering these questions. This is not a definitive analysis of all data science salaries, as we can be fairly sure that this sample is not representative. The project does, however, provide an interesting insight into smaller-level trends, and can inspire next steps to be answered by a more comprehensive data set.
 
-In this project, we are attempting to find a link between salary and other variables, so that salary can be predicted. This will be helpful for anyone working in data science - and especially those starting out in the field - to navigate different paths that may affect their current and future salaries.
+In this project, we are attempting to find a link between salary and other variables, so that salary can be predicted. This will be helpful for anyone working in data science - and especially those starting out in the field - to navigate different paths that may affect their current and future salaries. If and when more exhaustive data collection is done on this topic, this project may be used as a framework to answer the same questions on a broader scale that can be extrapolated.
 
 My hypothesis is that full time jobs where the employee has a high level of experience & the company is in the US will be the highest paid.
 
@@ -384,6 +382,7 @@ salary_data['company_size'].unique()
 - Many of country values for employee_residence & company_location
 - Almost half of values in both columns are USA
 - Instead of unique values for each country, sort into USA (1) & Not-USA (0) in employee_residence & company_location columns
+- In future projects, we may want to compare within these two groups to find different insights
 
 
 ```python
@@ -611,7 +610,7 @@ salary_data['job_title'].unique()
 - Contains 'Engineer', 'Engineering', 'Architect', or 'Developer' = 'engineer'
 - Contains 'Analyst', 'Analytics', or 'Specialist' = 'analyst'
 - Contains 'Scientist', 'Researcher', or 'Science' = 'scientist'
-- Note: these may need to be expanded pending new data
+- Note: these categories will need to be expanded pending new data, since this function only applies to job titles in the current data set.
 
 
 ```python
@@ -1655,9 +1654,10 @@ This dataset is published in the public domain, so there are few ethical concern
 
 ---
 # Conclusion: Who has the highest salary?
-- An employee who has a high level of experience, lives in the USA, and is not an analyst.
-- They have a predicted salary of $232 909.17.
-- This does not fully align with my hypothesis, though I did predict that high experience would predict salary.
+- An employee who has a high level of experience, lives in the USA, and is not an analyst
+- They have a predicted salary of $232 909.17
+- This does not fully align with my hypothesis, though I did predict that high experience would predict salary
+- This result is a very rough estimate, but does give us insight into the people included in this small sample
 
 
 ```python
