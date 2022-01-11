@@ -1,5 +1,7 @@
 # Predicting Ratings For a Women's Clothing Company
 ---
+Note: set GitHub to Light Mode to see visualization labels
+
 # Introduction
 [This kaggle dataset](https://www.kaggle.com/nicapotato/womens-ecommerce-clothing-reviews) includes 23486 rows of reviews from a women's e-commerce clothing company which is not identified. Each row represents a single reviewed item, and there are 10 columns of additional information about the garment and customer satisfaction.
 

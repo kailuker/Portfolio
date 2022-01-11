@@ -1,5 +1,6 @@
 # Who Has the Highest Salary in Data Science?
 ---
+Note: set GitHub to Light Mode to see visualization labels
 
 # [Interactive Tableau Dashboard](https://public.tableau.com/app/profile/kai.luker/viz/DataScienceSalaries/DataScienceSalaries)
 ![Data science salaries Tableau dashboard](readme_files/data_science_salaries_dashboard.png)
