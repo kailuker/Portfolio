@@ -12,6 +12,10 @@ I used real world data to investigate what factors contribute to salaries in the
 #### Python (Pandas, Seaborn)
 Using customer review data, I attempted to predict numeric ratings for an e-commerce clothing company. I used Python to create a linear regression model within a Jupyter Notebook.
 
+### [Mobile Game Retention & Win Rates](https://github.com/kailuker/Portfolio/tree/main/mobile_game_retention)
+#### SQL, Google BigQuery, Tableau
+With fictional data from a mobile game company, I used a SQL query to find 30-day rolling retention and the rate of matches won by players who joined on the same day. I then used Tableau worksheets to visualize my findings.
+
 ### [Bechdel Test Analyses](https://github.com/kailuker/Portfolio/tree/main/Bechdel_test)
 #### Tableau
 In an interactive Tableau dashboard, I visualized the relationship between ticket sales and various reasons that films failed the Bechdel Test. The Bechdel Test is a rough gauge of gender equality in movies.
